@@ -20,7 +20,7 @@ def sayhello():
     num1 = int(e.get())
     num2 = int(e2.get())
     mul = num1*num2
-    L.config(text="Result is:",  str(mul))
+    L.config(text="Result is:"+str(mul))
 #btn
 b = Button(window, text="click here!",command= sayhello)
 b.pack()
